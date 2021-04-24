@@ -1,3 +1,3 @@
-# Under Construction -- Shorten.me
+# Under Construction -- Remember Urls
 
-URL Shortner with PHP
+Store Urls written with PHP
