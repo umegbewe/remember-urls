@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -19,6 +19,10 @@ header h1 {
     color: #313131;
     font-weight: 400;
     text-align: center;
+}
+
+header:hover {
+    text-decoration: underline;
 }
 
 .form {
@@ -44,7 +48,7 @@ header h1 {
     outline: none;
     background: none;
     background-color: #fff;
-    border-radius: 8px 0px 0px 8px;
+    border-radius: 0px 0px 0px 10px;
     width: 100%;
     color: #666666;
 }
@@ -57,9 +61,9 @@ header h1 {
     outline: none;
     background: none;
     cursor: pointer;
-    background-color: #8c38ff;
+    background-color: #db4725;
     color: #fff;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 0px 10px 0px 0px;
     font-weight: 700;
 }
 
@@ -98,7 +102,7 @@ header h1 {
 .urls .url .id {
     flex: 1 1 100px;
     max-width: 100px;
-    color: #666666;
+    color: black;
     font-size: 18px;
     font-weight: 700;
 }
@@ -108,9 +112,10 @@ header h1 {
     flex: 1 1 0%
 }
 
-.urls .url a {
-    color:#8c38ff;
+.urls .url label  {
+    color: #666666;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .urls .url .long_url {
@@ -120,4 +125,10 @@ header h1 {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
+}
+
+a {
+    text-decoration: none;
+    color: #db4725;
+    font-weight: 500;
 }

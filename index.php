@@ -1,7 +1,7 @@
 <?php
     include 'db.php';
 
-    $db = new Database("localhost", "shortened", "root", "");
+    $db = new Database("localhost:3306", "shortened", "root", "");
     $db = $db->connect();
 
     $stmt = $db->query("SELECT * FROM urls");
@@ -13,19 +13,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shorten.me</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Remember Urls</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header> 
-        <h1>Shorten.me</h1>
+        <a href=""><h1>Remember Urls</h1></a>
     </header>
     <main>
         <section class="form">
-            <form action="post.php" method="post">
+            <form action="post.php" method="POST">
                 <input type="text" name="long_url" id="long_url" placeholder="https://google.com" />
-                <input type="submit" value="Shorten.me" />
+                <input type="submit" value="remember.me" />
             </form>
         </section>
         <section class="urls">
@@ -35,8 +37,7 @@
                     <?= $url['ID']; ?>
                 </div>
                 <div class="short_url">
-                   <a href="https://localhost/r?c=<?= $url['ID']; ?>" target="_blank"> 
-                        https://localhost/r?c=<? $url['ID']; ?>
+                        <label>Saved</label>
                    </a>
                 </div>
                 <div class="long_url">
