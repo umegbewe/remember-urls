@@ -1,7 +1,7 @@
 <?php
     include 'db.php';
 
-    $db = new Database("localhost:3306", "shortened", "root", "");
+    $db = new Database("localhost", "shortened", "root", "");
     $db = $db->connect();
 
     $stmt = $db->query("SELECT * FROM urls");
