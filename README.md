@@ -7,7 +7,7 @@ A simple PHP to learn about MySQL, PDO, and how to submit and get data from data
 
 ## Screenshots
 
-![App Screenshot](https://github.com/umegbewe/Remember-Urls/blob/main/Screenshot.png)
+![App Screenshot](https://github.com/umegbewe/remember-urls/blob/main/screenshots/Screenshot.png)
 
  
 ## Run Locally
@@ -33,11 +33,11 @@ Linux:
 ```
 ## Start the MySQL and Apache service on Xampp or alike
 
-![App Screenshot](https://github.com/umegbewe/Remember-Urls/blob/main/screenshots/Screenshot2.png)
+![App Screenshot](https://github.com/umegbewe/remember-urls/blob/main/screenshots/Screenshot2.png)
 
 ## Import urls.sql
 
-![App Screenshot](https://github.com/umegbewe/Remember-Urls/blob/main/screenshots/Screenshot3.png)
+![App Screenshot](https://github.com/umegbewe/remember-urls/blob/main/screenshots/Screenshot3.png)
 
 ## Visit
 
