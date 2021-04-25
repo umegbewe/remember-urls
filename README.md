@@ -2,7 +2,7 @@
 # Remember Urls
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-A simple PHP to learn about MySQL, PDO, and how to submit and get data from databases with PHP.
+A simple PHP Project to learn about MySQL, PDO, and how to submit and get data from databases with PHP.
 
 
 ## Screenshots
