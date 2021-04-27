@@ -35,7 +35,9 @@ Linux:
 
 ![App Screenshot](https://github.com/umegbewe/remember-urls/blob/main/screenshots/Screenshot2.png)
 
-## Import urls.sql
+## Database
+
+Create database on "shortened" on phpmyadmin and import url.sql file
 
 ![App Screenshot](https://github.com/umegbewe/remember-urls/blob/main/screenshots/Screenshot3.png)
 
