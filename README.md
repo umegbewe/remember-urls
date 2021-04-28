@@ -37,7 +37,7 @@ Linux:
 
 ## Database
 
-Create database on "shortened" on phpmyadmin and import url.sql file
+Create database on "urlstore" on phpmyadmin and import url.sql file
 
 ![App Screenshot](https://github.com/umegbewe/remember-urls/blob/main/screenshots/Screenshot3.png)
 
