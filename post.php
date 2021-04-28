@@ -2,7 +2,7 @@
 
 include 'db.php';
 
-$db = new Database("localhost", "shortened", "root", "");
+$db = new Database("localhost", "urlstore", "root", "");
 $db = $db->connect();
 
 $url = $_POST['long_url'];
