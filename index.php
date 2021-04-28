@@ -1,7 +1,7 @@
 <?php
     include 'db.php';
 
-    $db = new Database("localhost", "shortened", "root", "");
+    $db = new Database("localhost", "urlstore", "root", "");
     $db = $db->connect();
 
     $stmt = $db->query("SELECT * FROM urls");
