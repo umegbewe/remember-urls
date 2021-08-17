@@ -44,7 +44,7 @@ Create database "urlstore" on phpmyadmin and import url.sql file
 ## Visit
 
 ```
-Localhost/Remember-Urls
+localhost/remember-urls
 ```
 
   
@@ -52,7 +52,7 @@ Localhost/Remember-Urls
 
 **Client:** HTML, CSS
 
-**Server:** PHP, MYSQL
+**Server:** PHP, MySQL
 
 ## Contributing
 
